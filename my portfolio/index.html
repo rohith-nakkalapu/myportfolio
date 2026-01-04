@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>My Portfolio</title>
+    <style>
+            body{
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                justify-content: center;
+                background-color: #0a192e;
+            }
+            .resume{
+                text-align: start;
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-around;
+            }
+            .info{
+                text-align: start;
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-around;
+            }
+            .box h4{
+                font-size: larger;
+            }
+            .box1{
+                text-align: center;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+                padding: 20px;
+                border-radius: 100px;
+            }
+            .list button{
+                background-color: black;
+                color: aqua;
+            }
+            .list button:hover{
+                border-radius: 5px;
+                background-color: black;
+                color:aqua;
+                padding:5px 10px;
+                cursor: pointer;
+                 box-shadow: 0px 0px 20px;
+            }
+            .co{
+                margin:40px;
+                text-align: start;
+            }
+            button{
+                padding:5px 10px;
+                border-radius:5px;
+                background-color: black;
+                color:white;
+            }
+            .btn:hover{
+                background-color: rgb(255, 32, 32);
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                box-shadow: 4px 4px 5px;
+            }
+            .cont{
+                display: flex;
+                justify-content: center;
+            }
+            input,textarea{
+                width: 80%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 2px solid rgb(0, 0, 0);
+            }
+            textarea{
+                height:110px;
+                resize:vertical
+            }
+            .contact{
+                width: 50%;
+                margin:20px auto;
+                padding:15px;
+                border-radius: 15px;
+                justify-content:center ;
+                align-content: center;
+                background-color: rgba(117, 146, 172, 0.341);
+            }
+            .contact:hover{
+                box-shadow: 0 0 30px rgb(0, 225, 255);
+                animation: glow 2s infinite;
+            }
+            .btn2:hover{
+                cursor: pointer;
+                background-color: rgb(0, 89, 255);
+                color: rgb(255, 255, 255);
+                box-shadow: 4px 4px 5px;
+            }
+            .main{
+                width: 90%;
+                padding: 20px;
+                margin: 20px auto;
+                border: 2px solid black;
+                border-radius: 10px;
+                box-sizing: border-box;
+                background-color: #122442;
+                color: #ffffff;
+            }
+            a{
+                color: aqua;
+            }
+    </style>
+
+</head>
+<body><br>
+<main class="main">
+<header>
+    <h2 style="text-align: center;text-shadow: 0px 0px 25px cyan;">MY PORTFOLIO</h2>
+    <p style="text-align: center;">I Am N.Rohith Kumar,This Is My Portfolio Website Created By Me,I Am a CSE student,at present i am studying in b-tech second year,my objective is to become software developer.</p>
+    <hr>
+</header>
+
+<section class="info">
+    <article class="box">
+        <h2><u>Personal Information:</u></h2>
+        <p><b>Full Name: </b><i>Nakkalapu.Rohith Kumar</i></p>
+        <p><b>Phone NO: </b><i>9391797948</i></p>
+        <p><b>Email Address: </b><i>rohithnekkalapu2007@gmail.com</i></p>
+        <p><b>Location: </b><i>Nekkalam,Agiripalli(M),Eluru(DT),Andhra Pradesh.</i></p>
+        <a href="https://www.linkedin.com/in/rohith-kumar-nakkalapu-29504b357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><h4>My LinkedIn ProfileLink</h4></a>
+    </article>
+    <aside class="box1">
+        <nav class="list">
+            <a href="#1"><button>project</button></a>
+            <a href="#2"><button>skills</button></a>
+            <a href="#3"><button>about</button></a>
+            <a href="#4"><button>contact</button></a>
+        </nav><br>
+            <img src="mypicture.jpg"><br>
+            <marquee><b style="font-size: x-large"
+>Rohith Kumar Nakkalapu</b></marquee>
+    </aside>
+</section>
+<hr>
+<section class="co" id="3">
+    <article class="box">
+        <h2><u>Career Objective:</u></h2>
+        <p>Motivated Computer Science student withstrong skills in Python and Java, seeking anentry-level software development role to apply problem-solving and coding abilities inreal-world projects.</p>
+    </article>
+    <article class="box">
+        <h2><u>Education:</u></h2>
+        <ul>
+        <li>B-tech CSE in NRI Institute Of Technology-(1<sup>st</sup> year with 8.5 CGPA)</li>
+        <li>Intermediate at NRI Junior Collage with-78.4%.</li>
+        <li>10<sup>th</sup> at SFS High School with 51.16%.</li>
+        </ul>
+    </article>
+</section><hr>
+<section class="resume">
+    <article class="box" id="2">
+        <h4><u>SKILLS</u></h4>
+        <ul><li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+            <li>PYTHON</li>
+            <li>BASIC SQL</li>
+        </ul>
+    </article>
+    <article class="box">
+        <h4><u>TECHNICAL SKILLS</u></h4>
+        <p><b>Languages-</b>C,Python,Java,Sql</p>
+        <p><b>Web Technologies-</b>Html,Css,Java Script</p>
+        <p><b>Concepts-</b>Structures,Oops</p>
+    </article>
+    <article class="box" id="1">
+        <h4><u>PROJECTS</u></h4>
+        <p>Portfolio Templet</p>
+        <p>Recycling Guide Web</p>
+        <p>Quiz App</p>
+    </article>
+    <article class="box">
+        <h4><u>CERTIFICATIONS</u></h4>
+        <p>Infosys-Python Fundamentals</p>
+        <p>Java Essentials</p>
+        <p>Hacker Web Hack</p>
+        <p>NIPAM</p>
+    </article>
+</section><hr>
+<section class="cont">
+    <article class="contact" id="4">
+        <h1><b><u>Contact Me</u></b></h1>
+        <p style="font-size:20px;">Available at any time.You can contact Via Email OR Whatsapp.</p>
+        <form>
+        <input type="text" name="Name" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <textarea type="text" placeholder="Your Message" required></textarea><br><br>
+        <button  class="btn" value="submit">Submit Message</button>
+        </form><br>
+        <a href="mailto:rohithnekkalapu2007@gmail.com"><button class="btn2">EMAIL</button></a>
+        <a href="https://wa.me/919391797948" target="_blank"><button class="btn2">WHATSAPP</button>
+    </article>
+</section><hr>
+<footer>
+<p style="text-align: center;">© 2025 Rohith Kumar Nakkalapu — Built with &#x1F525 • Made responsive & accessible</p>
+</footer>
+</main>
+</body>
+</html>
